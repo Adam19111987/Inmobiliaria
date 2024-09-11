@@ -240,7 +240,7 @@ propiedades_alquiler = [
 function redenrizarPropiedades(propiedades, containerID){
     let container = document.querySelector(`#${containerID}`);
 
-for(propiedad of propiedades){
+for(let propiedad of propiedades){
    
     html = `
     <div class="col-md-4 mb-4">
