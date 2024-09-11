@@ -271,11 +271,6 @@ for(propiedad of propiedades){
 
 
 
-
-
-
-
-
 let botonVentas = document.querySelector('#verTodasVenta');
 botonVentas.addEventListener('click', function(){
     redenrizarPropiedades(propiedades_venta.slice(0 ,3), "ventaContainer")
@@ -289,3 +284,4 @@ botonAlquiler.addEventListener('click', function(){
     redenrizarPropiedades(propiedades_alquiler.slice(0, 3), "alquilerContainer")
 
 });
+
